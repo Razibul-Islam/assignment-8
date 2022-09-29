@@ -31,7 +31,7 @@ const Full = () => {
           </div>
         </div>
         <div>
-          <Profile></Profile>
+          <Profile time={time}></Profile>
         </div>
       </div>
     </div>

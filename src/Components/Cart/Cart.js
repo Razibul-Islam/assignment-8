@@ -8,7 +8,7 @@ const Cart = ({ gym, clickTime }) => {
       <h2>{name}</h2>
       <p className="description">{description.slice(0, 86)}...</p>
       <p className="time">
-        Time required: <small>{time}</small>
+        Time required: <small>{time}s</small>
       </p>
       <button className="cart-btn" onClick={() => clickTime(gym)}>
         Add to list
