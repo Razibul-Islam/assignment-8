@@ -2,6 +2,7 @@
 .main-body{
     display: grid;
     grid-template-columns: 6fr 2fr;
+    background: rgb(251, 238, 238);
 }
 .cartParent{
     display: grid;
