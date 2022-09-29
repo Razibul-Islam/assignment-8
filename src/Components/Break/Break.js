@@ -24,9 +24,6 @@ const Break = () => {
 
   return (
     <div>
-      {/* <div>
-        <p>{breakTime}</p>
-      </div> */}
       <h3>Add A Break</h3>
       <div className="break-time">
         <button onClick={() => clickBreakTime(10)}>10</button>

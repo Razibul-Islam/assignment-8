@@ -2,7 +2,6 @@ import React from 'react';
 import './AddBreak.css'
 
 const Addbreak = (props) => {
-    console.log(props.breakTime);
     return (
       <div>
         <div className="addBreak">

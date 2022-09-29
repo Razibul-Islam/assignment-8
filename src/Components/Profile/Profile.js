@@ -2,12 +2,19 @@ import React from "react";
 import "./Profile.css";
 import profile from "../../img/profile.jpg";
 import Break from "../Break/Break";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+const toasty = () => {
+  toast("Congratulations you have done assignment 8");
+};
 
 const Profile = ({ time }) => {
   let totalTime = 0;
   for (const newTime of time) {
     totalTime = parseInt(totalTime) + parseInt(newTime.time);
-  }
+    }
+
   return (
     <div className="profile">
       <div className="personal-info">
@@ -30,8 +37,9 @@ const Profile = ({ time }) => {
         </div>
       </div>
       <div className="activity-btn">
-        <button>Activity Completed</button>
+        <button onClick={toasty}>Activity Completed</button>
       </div>
+      <ToastContainer />
     </div>
   );
 };
