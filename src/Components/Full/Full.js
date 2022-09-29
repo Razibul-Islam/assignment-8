@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Cart from "../Cart/Cart";
 import Header from "../Header/Header";
 import Profile from "../Profile/Profile";
+import QA from "../QA/QA";
 import "./Full.css";
 
 const Full = () => {
@@ -33,6 +34,7 @@ const Full = () => {
         <div>
           <Profile time={time}></Profile>
         </div>
+        <QA></QA>
       </div>
     </div>
   );

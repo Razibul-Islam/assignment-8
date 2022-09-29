@@ -1,0 +1,13 @@
+.question{
+    margin: 20px 10px 50px;
+}
+.question-parent{
+    margin-top: 20px;
+}
+.answer{
+    margin-top: 10px;
+    display: flex;
+}
+.answer h3{
+    margin-right: 10px;
+}

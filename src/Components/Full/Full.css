@@ -12,3 +12,16 @@
 .card-main{
     margin: 100px 100px 50px 150px;
 }
+@media screen and (max-width:700px) {
+    .main-body{
+        display: block;
+    }
+    .cartParent{
+        /* display: block; */
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card-main{
+        margin: 0px;
+        padding: 5px;
+    }
+}
