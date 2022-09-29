@@ -2,7 +2,6 @@ import React from "react";
 import "./Profile.css";
 import profile from "../../img/profile.jpg";
 import Break from "../Break/Break";
-import AddBreak from "../AddBreak/AddBreak";
 
 const Profile = ({ time }) => {
   let totalTime = 0;
@@ -28,8 +27,6 @@ const Profile = ({ time }) => {
         <div className="total-exercise">
           <p>Exercise Details</p>
           <small>{totalTime} seconds</small>
-        </div>
-        <div className="total-exercise">
         </div>
       </div>
       <div className="activity-btn">

@@ -1,0 +1,14 @@
+.addBreak{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #e9e6e6;
+    border-radius: 10px;
+}
+
+.addBreak p{
+    font-size: 17px;
+    font-weight: 500;
+}
