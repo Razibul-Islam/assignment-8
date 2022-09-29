@@ -13,12 +13,18 @@ const Full = () => {
     },[])
     return (
       <div className="full">
-        <Header></Header>
-        <div>
-          {gymItem.map((gym) => (
-            <Cart key={gym.id} gym={gym}></Cart>
-          ))}
-          <Profile></Profile>
+        <div className="main-body">
+          <div className='card-main'>
+            <Header></Header>
+            <div className="cartParent">
+              {gymItem.map((gym) => (
+                <Cart key={gym.id} gym={gym}></Cart>
+              ))}
+            </div>
+          </div>
+          <div>
+            <Profile></Profile>
+          </div>
         </div>
       </div>
     );

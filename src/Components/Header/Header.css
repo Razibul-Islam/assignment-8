@@ -11,3 +11,7 @@
     color: rgb(122, 60, 60);
     cursor: pointer;
 }
+.header-caption{
+    font-size: 25px;
+    color: rgb(86, 74, 74);
+}

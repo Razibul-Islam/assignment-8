@@ -1,3 +1,13 @@
-.full{
-    margin: 100px 100px 0 200px;
+
+.main-body{
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+}
+.cartParent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+.card-main{
+    margin: 100px 100px 50px 150px;
 }
