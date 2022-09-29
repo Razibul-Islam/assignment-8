@@ -1,5 +1,5 @@
-import './App.css';
-import Full from './Components/Full/Full';
+import "./App.css";
+import Full from "./Components/Full/Full";
 
 function App() {
   return (

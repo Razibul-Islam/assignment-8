@@ -1,7 +1,7 @@
 import "./Cart.css";
 
-const Cart = (props) => {
-    const { name, img, time, description } = props.gym;
+const Cart = ({ gym, clickTime }) => {
+  const { name, img, time, description } = gym;
   return (
     <div className="cart">
       <img src={img} alt="" />
@@ -10,7 +10,7 @@ const Cart = (props) => {
       <p className="time">
         Time required: <small>{time}</small>
       </p>
-      <button className="cart-btn">
+      <button className="cart-btn" onClick={() => clickTime(gym)}>
         Add to list
       </button>
     </div>
