@@ -1,0 +1,44 @@
+[
+    {
+    "id":1,
+    "name":"push up",
+    "img":"https://images.unsplash.com/photo-1616803689943-5601631c7fec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "time":"40s",
+    "description":"Push-ups offer many health benefits, including:Burning calories,Protecting your shoulders and lower back from injuries,Improving your balance and posture,Improving your flexibility,Improving your performance in sports and athletic activities."
+    },
+    {
+    "id":2,
+    "name":"Deadlift",
+    "img":"https://images.unsplash.com/photo-1534368270820-9de3d8053204?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "time":"40s",
+    "description":"The top 8 benefits of deadlifts.1.Activate your hip extensors. Deadlifts are among the best exercises for training your hip extensors 2.Reduce lower back pain 3.Improve jump performance 4.Improve bone mineral density 5.Activate your core 6.Boost your metabolism 7.Carry less risk during failed repetitions 8.Offer simplicity of equipment"
+    },
+    {
+    "id":3,
+    "name":"Squat",
+    "img":"https://images.unsplash.com/photo-1536922246289-88c42f957773?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1204&q=80",
+    "time":"40s",
+    "description":"Squats burn calories and might help you lose weight. They also lower your chances of injuring your knees and ankles. As you exercise, the movement strengthens your tendons, bones, and ligaments around the leg muscles."
+    },
+    {
+    "id":4,
+    "name":"Lunge",
+    "img":"https://images.unsplash.com/photo-1632167764165-74a3d686e9f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    "time":"40s",
+    "description":"Lunges increase muscle mass to build up strength and tone your body, especially your core, butt, and legs. Improving your appearance isn't the main benefit of shaping up your body, as you'll also improve your posture and range of motion."
+    },
+    {
+    "id":5,
+    "name":"Pull-up",
+    "img":"https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "time":"40s",
+    "description":"Pull-Ups Strengthen Your Chest, Shoulders, Arms, and Core.In addition to working your back, pull-ups strengthen and sculpt your shoulders, forearms, and chest (pecs). They also engage your abs, including your deep transverse abdominis, making them a great exercise for targeting many of the major muscles in the body"
+    },
+    {
+    "id":6,
+    "name":"Plank",
+    "img":"https://images.unsplash.com/photo-1626444231642-6bd985bca16a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+    "time":"40s",
+    "description":"5 plank benefits, 1.Convenience. Planking is free and takes only a couple of minutes — no gym membership or special equipment required 2.Protects your back. The ability to brace your core is important for many everyday activities 3.Prevents exercise-related injuries 4.Improves posture 5.Boosts mental health."
+    }
+]
